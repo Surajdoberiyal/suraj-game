@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Suraj Doberiyal : Tic-Tac-Toe</title>
+       <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap"rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="header1">
+        <h1 id="text"> Welcome to Tic Toe Game</h1>
+    </div>
+    <div class="win">
+        <p class="winner hide">The Winner is</p>
+        <p class="x-text sign hide">X</p>
+        <p class="o-text sign hide">O</p>
+        <p class="winner draw hide">It's a Draw</p>
+    </div>
+
+    <div class="card">
+        <div class="item select">
+            <form action="" class="form">
+                <select name="levels" id="levels">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                    <option value="unbeatable">Unbeatable</option>
+                </select>
+            </form>
+        </div>
+        <div class="item player">
+            <button id="bt1" class="btn btn-p x ">X</button>
+            <button id="bt1" class="btn btn-p o ">O</button>
+        </div>
+        <div class="item board">
+            <button class="field"><p></p></button>
+            <button class="field"><p></p></button>
+            <button class="field no-r"><p></p></button>
+            <button class="field"><p></p></button>
+            <button class="field"><p></p></button>
+            <button class="field no-r"><p></p></button>
+            <button class="field no-b"><p></p></button>
+            <button class="field no-b"><p></p></button>
+            <button class="field no-b no-r"><p></p></button>
+        </div>
+        <div class="item rst">
+            <button id="bt2" class="btn restart">Restart</button>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+    <div class="w3-container w3-center w3-animate-opacity">
+        <h3 id="footer1">Design by : <a href="https://www.instagram.com/mr_weirdo.alx/" target="_blank">Suraj Doberiyal</a></h3>
+        <p>You can contact me on this email : Surajdoberiyal@gmail.com</p>
+      </div>
+      </div>
+</body>
+<script src="script.js"></script>
