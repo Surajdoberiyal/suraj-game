@@ -275,25 +275,30 @@ select:hover {
 {
         #text{
         margin-top: 0;
-    }.card {
+    }
+    .card {
         margin-top: 2px;
         margin-bottom: 10px;
         height: 518px;
         width: 316px;
     }
-    .footer{
+    .footer
+    {
        font-size: 13px;
     }
-    #footer1{
+    #footer1
+    {
         font-size: 20px;
      }
      .player{
         margin-bottom: 5px;
      }
-.form{
+.form
+{
     margin-left: 38%;
 }
-.winner {
+.winner 
+{
     position: fixed;
     left: 0;
     top: 27%;
@@ -301,10 +306,12 @@ select:hover {
     font-size: 31px;
 }
 
-.draw{
+.draw
+{
     position: fixed;
     left: 25px;
     top: 25%;
     transform: translate(41%, 0);
     font-size: 38px;
+}
 }
