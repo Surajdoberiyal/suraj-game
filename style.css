@@ -293,4 +293,18 @@ select:hover {
 .form{
     margin-left: 38%;
 }
+.winner {
+    position: fixed;
+    left: 0;
+    top: 27%;
+    transform: translate(41%, 0);
+    font-size: 31px;
+}
+
+.draw{
+    position: fixed;
+    left: 25px;
+    top: 25%;
+    transform: translate(41%, 0);
+    font-size: 38px;
 }
