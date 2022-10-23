@@ -3,12 +3,10 @@
  * This module stores the game board information
  */
 
-// sleeping cundtion
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-// creating structure of game
 const gameBoard = (() => {
     let _board = new Array(9);
     const getField = (num) => _board[num];
@@ -56,7 +54,6 @@ const gameBoard = (() => {
         clear
     };
 })();
-// player logic 
 
 const Player = (sign) => {
     let _sign = sign;
