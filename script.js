@@ -21,7 +21,7 @@ const gameBoard = (() => {
         htmlField.textContent = player.getSign();
         _board[num] = player.getSign();
     }
-
+// main logic for game
     const setFieldForAiLogic = (num, player) => {
         if (player == undefined) {
             _board[num] = undefined;
@@ -40,7 +40,7 @@ const gameBoard = (() => {
         }
         return fields;
     }
-
+// clear fields
     const clear = () => {
         for (let i = 0; i < _board.length; i++) {
             _board[i] = undefined;
