@@ -7,6 +7,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
+// for showing Tic tac toe dashboard 
 const gameBoard = (() => {
     let _board = new Array(9);
     const getField = (num) => _board[num];
