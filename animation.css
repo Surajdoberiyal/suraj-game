@@ -16,6 +16,8 @@
  * ----------------------------------------
  */
 
+
+/* animation for center  */
 @-webkit-keyframes puff-in-center {
     0% {
         -webkit-transform: scale(2);
@@ -62,7 +64,7 @@
  * animation tracking-in-contract-bck-bottom
  * ----------------------------------------
  */
-
+/*  focus animation  */
 @-webkit-keyframes focus-in-expand {
     0% {
         letter-spacing: -0.5em;
